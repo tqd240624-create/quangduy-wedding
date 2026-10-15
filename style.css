@@ -141,3 +141,30 @@ h1,h2,h3,strong{font-synthesis:none;overflow-wrap:normal}
 .wedding-art{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;width:100%;height:100%;padding:52px 20px;text-align:center;color:var(--text, #edf0e5)}
 .wedding-rings{font-family:Georgia,serif;font-size:58px;letter-spacing:-20px;padding-right:20px;line-height:.8;color:#d4c58d}
 .wedding-art strong{font-size:clamp(25px,3.6vw,46px);line-height:1.15;letter-spacing:-.04em}.wedding-art em{font-style:normal;color:#c9d7a7}.wedding-art>span:last-child{font-size:9px;letter-spacing:3px;opacity:.7}
+/* Tăng độ tương phản phần lời nhắn */
+.quote-section {
+  color: #eef8ff;
+}
+
+.quote-inner h2 {
+  color: inherit;
+}
+
+.quote-inner h2 em,
+.quote-inner .section-index {
+  color: #91e4ff;
+  opacity: 1;
+}
+
+.quote-footer {
+  color: #c3d8e6;
+}
+
+:root[data-theme="light"] .quote-inner h2 em,
+:root[data-theme="light"] .quote-inner .section-index {
+  color: #075979;
+}
+
+:root[data-theme="light"] .quote-footer {
+  color: #344e63;
+}
